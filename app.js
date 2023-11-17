@@ -1,7 +1,5 @@
-const names = require("./4-names");
-const sayHi = require("./5-utils");
+const os = require('os')
 
-
-sayHi("susan")
-sayHi(names.john)
-sayHi(names.peter)
+// inf about current user
+const user = os.userInfo()
+console.log(user);
